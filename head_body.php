@@ -101,7 +101,7 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-item contenedor_menu_str">
-                            <a href="<?php echo $dir_; ?>index.php" class="nav-link">
+                            <a href="<?php echo $dir_; ?>inicio.php" class="nav-link">
                                 <i class="nav-icon far fa-image"></i>
                                 <p class = "inicio_str">
                                     <font style="vertical-align: inherit;">

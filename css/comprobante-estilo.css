@@ -1,0 +1,332 @@
+body
+{
+	font-size:10px;
+	font-family: calibri;
+}
+.pad
+{
+	font-size:13px;
+}
+.principal
+{
+	width: 736.700787402px;
+	height: 90%;
+	/*padding: 20px 20px 20px 20px;
+	border: 1px solid #cccccc;*/
+	margin: 20px auto 0 auto;
+}
+#h2_index
+{
+	margin: 0 auto 0 auto !important;
+}
+#centrar
+{
+	font-size:24px !important;
+	width:25%;
+	margin: 0 auto 0 auto;
+}
+#perro
+{
+	font-size:18px !important;
+	text-align:center !important;
+	margin-top:20px;
+}
+#index
+{
+	width:450px;
+	border: 0px solid black;
+	margin: 0 auto 0 auto;
+	font-size:32px !important;
+}
+
+.imagen_factura
+{
+	width: 736.700787402px;
+	height: 700px;
+	border: 0px solid black;
+	margin:0 auto 0 auto;
+}
+
+#fact
+{
+	width: 736.700787402px;
+	height: 700px;
+}
+
+.div1
+{
+	margin-bottom:5px;
+	text-align:center;
+	border-radius:8px;
+	position:absolute;
+	width:415.748031496px;
+	height:115px;
+	border: 1px solid black;
+}
+.div2
+{
+	margin-bottom:5px;
+	height:115px;
+	text-align:center;
+	border-radius:8px;
+	float:right;
+	width:294.803149606px;
+	border: 1px solid black;
+}
+.enlinea
+{
+	display:inline;
+	font-size:13px;
+	font-style:bold;
+}
+
+.tres
+{
+	border-bottom: 1px solid black;
+	vertical-align:middle;
+}
+.tres_class
+{
+	width:434.645669291px;
+}
+#tabla_liq
+{
+	border: 0px;
+	border-collapse:collapse;
+	padding:0px;
+	border-spacing:0px;
+}
+#tabla_liq td {margin:0;border:0px !important;}
+
+#td_1 {width:110px;}
+#td_2 {width:50px;}
+#td_3 {width:140px;}
+#td_4 {width:50px;}
+#td_5 {width:140px;}
+#td_6 {width:90px;}
+#td_7 {width:125px;}
+
+.tabla1
+{
+	margin-bottom: 6px;
+	margin-top: 10px;
+	border: 1px solid black;
+	vertical-align:top;
+	width:737.007874016px;
+	border-radius:8px;
+	border-spacing:0px;
+}
+.tabla1 > tr > td
+{
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.si_bottom
+{
+	border-bottom: 1px solid black;
+}
+.no_bottom
+{
+	border-bottom: 0px;
+}
+.tabla2
+{
+	border-collapse:separate;
+	border-spacing:0px;
+	border: 0px;
+	text-align: center;
+	width:737.007874016px;
+	margin-bottom: 0px;
+}
+.tabla2 td
+{
+	border: 1px solid black;
+}
+.pad td
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.sup_izq
+{
+	width: 1.5cm;
+	border-top-left-radius:8px;
+}
+.sup_der
+{
+	border-top-right-radius:8px;
+}
+.inf_izq
+{
+	border-bottom-left-radius:8px;
+	
+}
+.inf_der
+{
+	border-bottom-right-radius:8px;
+	font-size: 6px;
+	padding:3px;
+}
+.punta_der_inf
+{
+	text-align: right !important;
+}
+.col_iva
+{
+	width: 2.1cm;
+}
+#precio
+{
+	width:1.9cm;
+}
+.desc
+{
+	width:12cm;
+}
+#tabla3
+{
+	border-collapse:separate;
+	border-spacing:0px;
+	border: 0px;
+	text-align: center;
+	width:900px;
+}
+#tabla3 td
+{
+	border: 1px solid black;
+}
+.cuadradito
+{
+	border: 1px solid black;
+	width:20px;
+	display:inline;
+}
+.imagen
+{
+    float: left;
+}
+.imagen_img
+{
+	height: 90px; 
+	margin:5px 0 5px 10px;
+	width: auto;
+}
+hr
+{ 
+  border-color:black;
+}
+.div1 > p, #div2 > p
+{
+	display:inline;
+}
+.col_iva
+{
+	width:90,708661417px;
+}
+.ali_izq
+{
+	text-align:left;
+	font-size:12px;
+}
+.relleno
+{
+	text-align:left;
+	font-size:13px;
+	color:blue;
+	font-style:bold;
+}
+.ali_izq td, .ali_izq
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.aviso_footer
+{
+	text-align:left;
+	font-size:10px;
+}
+
+.aviso_footer td, .aviso_footer
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#liq
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.ali_cen
+{
+	text-align:center;
+	font-size:13px;
+}
+.cabecera
+{
+	font-size: 11pt;
+	font-style: bold;
+	text-align: left;
+}
+.cabecera_tit
+{
+	line-height:25px;
+	font-size: 11pt;
+	font-style: bold;
+	text-align: left;
+}
+.cabecera1
+{
+	font-size: 13px;
+	text-align: left;
+}
+
+.cabecera_ruc
+{
+	line-height:25px;
+	font-size: 13px;
+	text-align: left;
+}
+
+.cabecera2
+{
+	font-size: 11px;
+	text-align: left;
+}
+.cabecera3
+{
+	font-size: 19px;
+	text-align: left;
+}
+.cabecera4
+{
+	font-size: 6px;
+	text-align: left;
+	padding:3px;
+}
+.cabecera_ft
+{
+	line-height:35px;
+	font-size: 17pt;
+	font-style: bold;
+}
+
+#inf_der2
+{
+	
+}
+.cabecera5
+{
+	font-size: 8px;
+	text-align: left;
+}
+.info_empresa
+{
+	margin-top:5px;
+	margin-left:50px;
+	width:415px;
+	position:absolute;
+	font-size: 10px;
+	text-align: center;
+	border:0px solid black;
+}

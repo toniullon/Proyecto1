@@ -1,0 +1,238 @@
+body
+{
+	font-size:10px;
+	font-family: arial;
+}
+.pad
+{
+	font-size:13px;
+}
+#principal
+{
+	width: 736.700787402px;
+	height: 100%;
+	padding: 30px 30px 30px 30px;
+	border: 0px solid black;
+	margin: 0 auto 0 auto;
+}
+
+#div1
+{
+	visibility:hidden;
+}
+#div2
+{
+	visibility:hidden;
+}
+.enlinea
+{
+	display:inline;
+	font-size:13px;
+	color:blue;
+	font-style:bold;
+}
+.ocultar
+{
+	visibility:hidden;
+}
+
+.tres
+{
+	border-bottom: 0px solid black;
+	vertical-align:middle;
+}
+#idtres
+{
+	width:434.645669291px;
+}
+#tabla_liq
+{
+	border: 0px;
+	border-collapse:collapse;
+	padding:0px;
+	border-spacing:0px;
+}
+#tabla_liq td {margin:0;border:0px !important;}
+
+#td_1 {width:110px;}
+#td_2 {width:50px;}
+#td_3 {width:140px;}
+#td_4 {width:50px;}
+#td_5 {width:140px;}
+#td_6 {width:90px;}
+#td_7 {width:125px;}
+
+#tabla1
+{
+	margin-bottom: 6px;
+	margin-top: 10px;
+	border: 0px solid black;
+	vertical-align:top;
+	width:737.007874016px;
+	border-radius:8px;
+	border-spacing:0px;
+}
+#tabla1 > tr > td
+{
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.si_bottom
+{
+	border-bottom: 0px solid black;
+}
+.no_bottom
+{
+	border-bottom: 0px;
+}
+#tabla2
+{
+	border-collapse:separate;
+	border-spacing:0px;
+	border: 0px;
+	text-align: center;
+	width:737.007874016px;
+	margin-bottom: 0px;
+}
+#tabla2 td
+{
+	border: 0px solid black;
+}
+.pad td
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#sup_izq
+{
+	width: 1.5cm;
+	border-top-left-radius:8px;
+}
+#sup_der
+{
+	border-top-right-radius:8px;
+}
+#inf_izq
+{
+	border-bottom-left-radius:8px;
+}
+#inf_der
+{
+	border-bottom-right-radius:8px;
+}
+.col_iva
+{
+	width: 2.1cm;
+}
+#precio
+{
+	width:1.9cm;
+}
+#desc
+{
+	width:6.8cm;
+}
+#tabla3
+{
+	border-collapse:separate;
+	border-spacing:0px;
+	border: 0px;
+	text-align: center;
+	width:900px;
+}
+#tabla3 td
+{
+	border: 0px solid black;
+}
+.cuadradito
+{
+	border: 0px solid black;
+	width:20px;
+	display:inline;
+}
+.imagen
+{
+    float: left;
+}
+#imagen
+{
+	height: 100px; 
+	width: 120px;
+}
+
+#div1 > p, #div2 > p
+{
+	display:inline;
+}
+.col_iva
+{
+	width:90,708661417px;
+}
+.ali_izq
+{
+	text-align:left;
+	font-size:10px;
+}
+.relleno
+{
+	text-align:left;
+	font-size:13px;
+	color:blue;
+	font-style:bold;
+}
+.ali_izq td, .ali_izq
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#liq
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#ali_cen
+{
+	text-align:center;
+	font-size:13px;
+}
+.cabezera
+{
+	font-size: 24px;
+	font-style: bold;
+	text-align: left;
+}
+.cabezera1
+{
+	font-size: 13px;
+	text-align: left;
+}
+
+.cabezera2
+{
+	font-size: 7.7px;
+	text-align: left;
+}
+.cabezera3
+{
+	font-size: 19px;
+	text-align: left;
+}
+.cabezera4
+{
+	font-size: 6px;
+	text-align: left;
+	padding:3px;
+}
+.cabezera5
+{
+	font-size: 8px;
+	text-align: left;
+}
+#info_empresa
+{
+	width:415px;
+	position:absolute;
+	font-size: 7.5px;
+	text-align: center;
+	border:0px solid black;
+}

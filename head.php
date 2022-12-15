@@ -1,6 +1,8 @@
 
 
 <?php 
+    include("mysql.php"); //SI INCLUYE EL ACHIVO DE CONECCION
+    $db = DataBase::conectar();//CONECCION DE BASE DE DATOS
 
     $dir_ = '';
     if(file_exists("../plugins")){
