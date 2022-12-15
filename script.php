@@ -15,8 +15,6 @@ $.widget.bridge('uibutton', $.ui.button)
 <script src="<?php echo $dir_; ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="<?php echo $dir_; ?>plugins/chart.js/Chart.min.js"></script>
 <script src="<?php echo $dir_; ?>plugins/sparklines/sparkline.js"></script>
-<script src="<?php echo $dir_; ?>plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="<?php echo $dir_; ?>plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
 <script src="<?php echo $dir_; ?>plugins/jquery-knob/jquery.knob.min.js"></script>
 <script src="<?php echo $dir_; ?>plugins/moment/moment.min.js"></script>
 <script src="<?php echo $dir_; ?>plugins/daterangepicker/daterangepicker.js"></script>
