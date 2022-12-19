@@ -27,4 +27,9 @@
     <link rel="stylesheet" href="<?php echo $dir_; ?>plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <link rel="stylesheet" href="<?php echo $dir_; ?>plugins/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" href="<?php echo $dir_; ?>plugins/summernote/summernote-bs4.min.css">
+
+    <!-- Nprogress -->
+	<script src="<?php echo $dir_; ?>plugins/nprogress/nprogress.js"></script>
+	<link href="<?php echo $dir_; ?>plugins/nprogress/nprogress.css?v=1" rel="stylesheet">
+
 </head>
