@@ -1,3 +1,48 @@
+
+    $(document).ready(function() {
+        $(".submenu_str,.nav-link").click(function() {
+            var seleccion = $(this);
+            var menu_text = $(seleccion).text();
+            var menu_content = $(seleccion).closest('.contenedor_menu_str').find('.text_contenedor_menu_str');
+            var padre_text = $(menu_content).text().trim();
+            //LE PONEMOS ACTIVO
+            if($(seleccion).find('.menu_str').closest('.contenedor_menu_str').length > 0 || $(seleccion).find('.menu_str').closest('.un_menu').length > 0){
+                $(".nav-link.activo").removeClass('activo');
+                $(seleccion).addClass('activo');
+                $("#titulo_menu_content").html(menu_text.trim());
+                localStorage.setItem("menu-activo", padre_text.trim()+'->'+menu_text.trim());
+            }
+
+            
+        });
+
+        var menu_activa = localStorage.getItem("menu-activo");//PARA BUSCAR EL MENU EN QUE ESTA
+        
+        var menus = $(".menu_str");
+        for (let i = 0; i < menus.length; i++) {
+            var seleccion = $(menus[i]);
+            var menu_text = $(seleccion).text();
+            var menu_content = $(seleccion).closest('.contenedor_menu_str').find('.text_contenedor_menu_str');
+            var padre_text = $(menu_content).text().trim();
+            var menu_url = padre_text.trim()+'->'+menu_text.trim();
+            
+            if(menu_activa == menu_url){
+                setTimeout(() => {
+                    $("#titulo_menu_content").html(menu_text.trim());
+                    if(!padre_text.trim()){
+                        $("#ubi_menu").html('<li class="breadcrumb-item active">'+menu_text.trim()+'</li>');
+                    }else{
+                        $("#ubi_menu").html('<li class="breadcrumb-item">'+padre_text.trim()+'</li><li class="breadcrumb-item active">'+menu_text.trim()+'</li>');
+                    }
+                    
+                    $(seleccion).closest('.contenedor_menu_str').find('.text_contenedor_menu_str').click();
+                    $(seleccion).closest('.nav-link').addClass('activo');
+                }, 500);
+                break;
+            }
+            
+        }
+    });
 /*error para mostrar mensaje en letras rojas bajo los input los requeridos */
 function error_input(error = true, id = '', sms = 'Complete el campo', tab = false){
     if(!Array.isArray(id)){
@@ -84,7 +129,3 @@ function error_input(error = true, id = '', sms = 'Complete el campo', tab = fal
         }
     }, 500);
 }
-
-$(".submenu_str,.menu_str").click(function() {
-    alert(5);
-});

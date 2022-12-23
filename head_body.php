@@ -103,36 +103,30 @@
                 <!-- Sidebar Menu CONTENIDO DE LOS MENUS-->
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <!--li class="nav-item contenedor_menu_str">
-                            <a href="<?php echo $dir_; ?>inicio.php" class="nav-link">
-                                <i class="nav-icon far fa-image"></i>
-                                <p class = "inicio_str">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            Inicio
-                                        </font>
-                                    </font>
-                                </p>
-                            </a>
-                        </!--li -->
-                        <li class="nav-item contenedor_menu_str">
+                        <li class="nav-item un_menu">
                             <a href="<?php echo $dir_; ?>inicio.php" class="nav-link">
                                 <i class="nav-icon far fa-image"></i>
                                 <p class="menu_str">Inicio </p>
                             </a>
                         </li>
 
-                        <li class="nav-header titulo_str">Menús</li>
+                        <li class="nav-header header_str">Menús</li>
                         <li class="nav-item contenedor_menu_str">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-edit"></i>
-                                <p class="menu_str">Clientes <i class="fas fa-angle-left right"></i></p>
+                                <p class="text_contenedor_menu_str">Clientes <i class="fas fa-angle-left right"></i></p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="<?php echo $sub_dir_; ?>Clientes.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p class="submenu_str">Administrar Clientes</p>
+                                        <p class="menu_str">Administrar Clientes</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p class="menu_str">Administrar</p>
                                     </a>
                                 </li>
                             </ul>
@@ -146,13 +140,13 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Dashboard</h1>
+                            <h1 class="m-0" id = "titulo_menu_content"></h1>
                         </div>
                         <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <ol class="breadcrumb float-sm-right" id = "ubi_menu">
+                                <!--li class="breadcrumb-item">Home</!--li>
                                 <li class="breadcrumb-item">Dashboard v1</li>
-                                <li class="breadcrumb-item active">Dashboard v1</li>
+                                <li-- class="breadcrumb-item active">Dashboard v1</li-->
                             </ol>
                         </div>
                     </div>

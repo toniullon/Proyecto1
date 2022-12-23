@@ -594,5 +594,8 @@ span.select2-selection.select2-selection--single.valid_form {
   margin-right: 2px;
   float: left;
 }
+ .activo{
+  background-color: #e1e2e312 !important;
+ }
 
 /*********/

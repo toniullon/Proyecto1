@@ -28,6 +28,8 @@
     <!-- TOAST -->
     <link href="<?php echo $dir_; ?>plugins/toast-master/css/jquery.toast.css" rel="stylesheet">
 	<script src="<?php echo $dir_; ?>plugins/toast-master/js/jquery.toast.js"></script>
+
+    <script src="<?php echo $dir_; ?>pages_js/generico_js.js"></script>
 </body>
 
 </html>
